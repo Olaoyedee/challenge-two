@@ -174,14 +174,7 @@ body a {
   background-image: url("./images/image-hero-desktop.png");
   background-size: cover;
 }
-/* .img-remote-mobile{
-    margin-top: 3%;
-    height: 70vh;
-    width: 30%;
-    margin-right: 10%;
-    background-image: url("./images/image-hero-desktop.png");
-    background-size: cover;
-} */
+
 .main-footer {
   width: 80%;
   display: flex;
@@ -336,7 +329,7 @@ body a {
   .img-space {
     padding: 0.75em;
   }
-  /* This BELOW is done in place of Javascript functionality, incase u chosoe to use CSS Hover */
+  /* This BELOW is done in place of Javascript functionality, incase u choose to use CSS Hover */
 
   /* .feature:hover .drpdwn-content,.company:hover .drpdwn-content2{
         cursor: pointer;
@@ -620,7 +613,9 @@ body a {
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 /* @media (min-width: 1400px) { ... } */
-/* // Medium devices (tablets, 768px and up) */
+
+
+/* // Medium devices (tablets, 768px and below) */
 @media (max-width: 375px), (max-width: 768px) {
   .snap-nav-bar {
     min-width: 90%;
