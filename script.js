@@ -13,15 +13,15 @@ drpdwnNav.addEventListener('click', dropMore)
 drpdwnNav1.addEventListener('click', dropMore2)
 
 function openNav(){
-    hamburger.style.display ='none'
-    closeNav.style.display='block'
+    closeNav.classList.add('open-nav')
+    hamburger.classList.add('close-hamburger')
     navLinks.classList.add('open-mobile-nav')
     
 }
 function closeNavBar(){
-    
-    closeNav.style.display='none'
-    hamburger.style.display ='block'
+    hamburger.classList.remove('close-hamburger')
+    closeNav.classList.remove('open-nav')
+    // hamburger.classList.add('reveal-hamburger')
     navLinks.classList.remove('open-mobile-nav')
     console.log(4)
 }
@@ -29,7 +29,7 @@ function dropMore(e){
     e.preventDefault()
     dropdownFeature.classList.toggle('dropdownFeat')
     dropdownCompany.classList.remove('dropdownFeat')
-    snapHead.style.backdropFilter='3px(blur)'
+    
     // dropdownFeature.style.display ='block'
 }
 function dropMore2(e){

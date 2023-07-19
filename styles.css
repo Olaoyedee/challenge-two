@@ -216,11 +216,10 @@ body a {
 /* styles for hamburger */
 
 .hamburger {
-  /* display: none; */
-  position: absolute;
-  right: -3000px;
   display: none;
 }
+ 
+  
 .dropdownFeat {
   display: block;
 }
@@ -228,18 +227,12 @@ body a {
 .close-nav {
   display: none;
 }
-/* Js Functionality class */
-.close-hamburger {
-  display: none;
-}
-.reveal-hamburger {
-  display: block;
-}
+
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1201px) {
   .hamburger {
-    right: -10px;
+   
     display: none;
   }
 
@@ -419,7 +412,7 @@ body a {
 /* // Large devices (desktops, 1200px and down) */
 @media (max-width: 1200px) {
   .hamburger {
-    right: 0;
+    
     display: none;
   }
 
@@ -525,9 +518,7 @@ body a {
   .dropdownFeat {
     display: block;
   }
-  .reveal-hamburger {
-    display: block;
-  }
+  
   .main-container {
     margin: auto;
     /* margin-top: 10%; */
@@ -624,9 +615,10 @@ body a {
   .hamburger {
     display: block;
     cursor: pointer;
-    right: 50px;
+    
     /* visibility: visible; */
   }
+ 
   .remodel {
     flex-direction: column;
     width: 100%;
@@ -672,7 +664,8 @@ body a {
     position: absolute;
     left: -550%;
     top: 0;
-    background: rgba(0, 0, 0, 0.9);
+    /* background: rgba(0, 0, 0, 0.9); */
+    background: rgba(80,0,0,0.9);
     color: grey;
     display: block;
     flex-direction: column;
@@ -757,9 +750,7 @@ body a {
     z-index: 2000;
     /* color: red; */
   }
-  .reveal-hamburger {
-    display: block;
-  }
+ 
   .open-mobile-nav {
     left: 55%;
   }
@@ -845,4 +836,18 @@ body a {
     color: white;
     background-color: hsl(0, 0%, 8%);
   }
+
+  .open-nav{
+    display: block;
+  }
+  /* Js Functionality class */
+  .close-hamburger {
+    display: none;
+  }
+  .reveal-hamburger {
+    display: block;
+  }
+
 }
+
+
